@@ -1,0 +1,1 @@
+[{"tool": "exec_command", "args": {"cmd": "printf 'line1\\nline2\\n' > out.txt && cat out.txt"}}, {"text": "done s4"}]

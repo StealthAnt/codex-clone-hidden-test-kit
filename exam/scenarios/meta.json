@@ -1,0 +1,97 @@
+{
+ "s1_hello": {
+  "prompt": "say hi",
+  "args": []
+ },
+ "s3_exec_ok": {
+  "prompt": "run the echo command",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s4_write_file": {
+  "prompt": "write a file",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s5_readonly": {
+  "prompt": "try to write a file",
+  "args": [
+   "--sandbox",
+   "read-only"
+  ]
+ },
+ "s6_workspace_write": {
+  "prompt": "write inside the workspace",
+  "args": [
+   "--sandbox",
+   "workspace-write"
+  ]
+ },
+ "s7_agents_md": {
+  "prompt": "what are the project rules?",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s8_parallel": {
+  "prompt": "run two commands",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s9_bad_command": {
+  "prompt": "run a missing command",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s10_long_output": {
+  "prompt": "print many lines",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s11_unknown_tool": {
+  "prompt": "call a tool that does not exist",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s12_bad_json": {
+  "prompt": "send broken arguments",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s13_exit_code": {
+  "prompt": "exit with code 7",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s14_apply_patch": {
+  "prompt": "apply a patch",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ },
+ "s15_stdin": {
+  "prompt": "interactive",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ]
+ }
+}

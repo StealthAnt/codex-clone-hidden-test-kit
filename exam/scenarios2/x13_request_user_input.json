@@ -1,0 +1,1 @@
+[{"tool": "request_user_input", "args": {"questions": [{"id": "q1", "header": "Choice", "question": "Pick one?", "options": [{"label": "A", "description": "first"}, {"label": "B", "description": "second"}]}]}}, {"text": "asked"}]

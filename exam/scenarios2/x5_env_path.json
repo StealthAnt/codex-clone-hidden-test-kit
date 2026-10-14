@@ -1,0 +1,1 @@
+[{"tool": "exec_command", "args": {"cmd": "echo \"$PATH\" | tr ':' '\\n' | head -3; env | sort | grep -E '^(CODEX|NO_COLOR|PAGER|GIT_PAGER|TERM|LANG|LC_ALL)=' "}}, {"text": "env done"}]

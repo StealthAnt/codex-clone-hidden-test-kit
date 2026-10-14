@@ -1,0 +1,18 @@
+# real Codex vs the FIRST copy (hard test)
+headers              1/25
+
+TOTAL 245/325 = 75.4%
+
+# real Codex vs the SECOND copy (hard test)
+headers              25/25
+
+TOTAL 320/325 = 98.5%
+
+# real Codex vs itself (two real runs, hard test): the test validates itself
+headers              25/25
+
+TOTAL 325/325 = 100.0%
+
+# easy test, final copy
+
+TOTAL 96/97 = 99.0%

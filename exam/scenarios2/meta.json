@@ -1,0 +1,284 @@
+{
+ "m_gpt-5.5": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-5.5",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-5.6-luna": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-5.6-luna",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-5.6-sol": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-5.6-sol",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-5.6-terra": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-5.6-terra",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-6.1-sol": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-6.1-sol",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-6-astra": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-6-astra",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-6-luna": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-6-luna",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-6-sol": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-6-sol",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-daybreak-blue-latest": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-daybreak-blue-latest",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_gpt-daybreak-red-latest": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "gpt-daybreak-red-latest",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "m_codex-auto-review": {
+  "prompt": "say hi",
+  "args": [
+   "-m",
+   "codex-auto-review",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x1_json_events": {
+  "prompt": "emit json events",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--json",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x2_image_attach": {
+  "prompt": "describe the image",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "-i",
+   "pic.png",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x3_view_image": {
+  "prompt": "look at the picture",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x4_goals": {
+  "prompt": "set a goal",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x5_env_path": {
+  "prompt": "show the environment",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x6_stdin_prompt": {
+  "prompt": "summarize this input",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": true,
+  "noskip": false
+ },
+ "x7_dev_instructions": {
+  "prompt": "say hi",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "-c",
+   "developer_instructions=\"Be extremely terse.\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x8_cd": {
+  "prompt": "where am I?",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "-C",
+   "sub",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x9_git_check": {
+  "prompt": "say hi",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": true
+ },
+ "x10_server_500": {
+  "prompt": "say hi",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x11_server_401": {
+  "prompt": "say hi",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x12_reasoning": {
+  "prompt": "say hi",
+  "args": [
+   "-c",
+   "model_reasoning_effort=\"high\"",
+   "-m",
+   "gpt-5.5",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "x13_request_user_input": {
+  "prompt": "ask me something",
+  "args": [
+   "-c",
+   "model=\"mock-1\"",
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ },
+ "d1_default_model": {
+  "prompt": "say hi",
+  "args": [
+   "--sandbox",
+   "danger-full-access"
+  ],
+  "stdin": false,
+  "noskip": false
+ }
+}

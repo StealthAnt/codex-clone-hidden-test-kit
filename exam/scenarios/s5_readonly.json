@@ -1,0 +1,1 @@
+[{"tool": "exec_command", "args": {"cmd": "echo blocked > should_not_exist.txt; echo exit=$?"}}, {"text": "done s5"}]

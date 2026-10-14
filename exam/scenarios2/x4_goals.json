@@ -1,0 +1,1 @@
+[{"tool": "create_goal", "args": {"objective": "ship the feature", "token_budget": 5000}}, {"tool": "get_goal", "args": {}}, {"tool": "update_goal", "args": {"status": "complete"}}, {"text": "goal flow done"}]

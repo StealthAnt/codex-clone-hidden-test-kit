@@ -1,0 +1,1 @@
+[{"tool": "exec_command", "args": {"cmd": "seq 1 6000"}}, {"text": "done s10"}]

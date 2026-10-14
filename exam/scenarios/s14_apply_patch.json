@@ -1,0 +1,1 @@
+[{"tool": "exec_command", "args": {"cmd": "apply_patch <<'PATCH'\n*** Begin Patch\n*** Add File: patched.txt\n+hello patch\n*** End Patch\nPATCH"}}, {"text": "done s14"}]

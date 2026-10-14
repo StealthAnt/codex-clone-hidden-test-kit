@@ -1,0 +1,8 @@
+home/
+target/codex-*/
+exam/real*/
+exam/clon*/
+exam/clone*/
+exam/work/
+__pycache__/
+*.pid

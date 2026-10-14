@@ -1,0 +1,1 @@
+[{"tools": [{"tool": "exec_command", "args": {"cmd": "echo first"}}, {"tool": "exec_command", "args": {"cmd": "echo second"}}]}, {"text": "done s8"}]
